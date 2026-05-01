@@ -5,9 +5,7 @@ Autor: Weberth Silva de Souza
 
 SOBRE O PROJETO
 
-O **MedFlow** é um sistema desenvolvido em Java com o objetivo de simular um ambiente básico de controle hospitalar.
-A aplicação permite o cadastro de médicos e pacientes, bem como a associação entre eles, possibilitando a visualização dos pacientes vinculados a cada médico.
-
+O **MedFlow**é um sistema desenvolvido para auxiliar profissionais da saúde no controle e na administração de medicamentos em ambiente hospitalar. Permite gerenciar prescrições, registrar horários e dosagens, e acompanhar o histórico de medicação dos pacientes.
 ---
 
 FUNCIONALIDADES
