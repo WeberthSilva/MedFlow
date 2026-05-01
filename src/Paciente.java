@@ -12,7 +12,9 @@ public class Paciente {
 
     @Override
     public String toString() {
-        return "Nome: " + nome + "| Idade: " + idade + "| Historico:" + historico;
+        return "Nome: " + nome +
+                "| Idade: " + idade +
+                "| Historico:" + historico;
     }
 
 

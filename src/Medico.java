@@ -13,12 +13,35 @@ public class Medico extends Usuario {
         this.especialidade = especialidade;
         this.pacientes = new ArrayList<>();
     }
-    public void cadastrarPaciente(Paciente paciente){
-        pacientes.add(paciente);
+
+    public String getCrm() {
+        return crm;
     }
-    public void listarPacientes(){
-        for(Paciente p : pacientes){
-            System.out.println(p);
+
+    public String getEspecialidade() {
+        return especialidade;
+    }
+
+    public void cadastrarPaciente(Paciente paciente) {
+        if (!pacientes.contains(paciente)){
+            pacientes.add(paciente);
         }
+    }
+
+    public void listarPacientes() {
+        if (pacientes.isEmpty()) {
+            System.out.println("Nenhum paciente encontrado.");
+        } else {
+            for (Paciente p : pacientes) {
+                System.out.println(p);
+            }
+        }
+    }
+
+    @Override
+    public String toString() {
+        return "Nome: " + this.getNome() +
+                " | CRM: " + crm +
+                " | Especialidade: " + especialidade;
     }
 }

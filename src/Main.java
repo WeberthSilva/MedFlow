@@ -1,18 +1,53 @@
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
 
-        Medico medico = new Medico("roberto silva", "roberto@gmail", "82476692", "CRM/GO 123.456", "Pediatra");
+        Admin admin = new Admin("Admin", "Admin@gmail", "Admin123");
 
-        Paciente paciente = new Paciente("josé souza",92 , "diabetes tipo 2");
-        Paciente paciente1 = new Paciente("maria da conceisão", 67, "asma");
-        Paciente paciente2 = new Paciente("joão campos", 45, "cirugia de catarata");
+        while (true) {
+            System.out.println("1 - Cadastrar médico");
+            System.out.println("2 - Listar médicos");
+            System.out.println("0 - Sair");
+            System.out.println("qual opçao:");
 
-        medico.cadastrarPaciente(paciente);
-        medico.cadastrarPaciente(paciente1);
-        medico.cadastrarPaciente(paciente2);
-        medico.listarPacientes();
+            int menu = sc.nextInt();
 
+            switch (menu) {
+                case 1:
 
+                    System.out.println("Cadastrar medico");
+                    sc.nextLine();
+                    System.out.println("Nome");
+                    String nome = sc.nextLine();
 
+                    System.out.println("Email");
+                    String email = sc.nextLine();
+
+                    System.out.println("Senha");
+                    String senha = sc.nextLine();
+
+                    System.out.println("Especialidade");
+                    String especialidade = sc.nextLine();
+
+                    System.out.println("Crm");
+                    String crm = sc.nextLine();
+                    Medico medico = new Medico(nome, email, senha, crm, especialidade);
+                    admin.cadastrarMedico(medico);
+                    break;
+
+                case 2:
+                    System.out.println("lista de medicos: ");
+                    admin.listarMedicos();
+                    break;
+                case 0:
+                    System.out.println("Programa encerrado");
+                    return;
+                default:
+                    System.out.println("opçao invalida");
+            }
+
+        }
     }
 }
