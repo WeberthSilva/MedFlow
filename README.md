@@ -5,7 +5,9 @@ Autor: Weberth Silva de Souza
 
 SOBRE O PROJETO
 
-O **MedFlow**é um sistema desenvolvido para auxiliar profissionais da saúde no controle e na administração de medicamentos em ambiente hospitalar. Permite gerenciar prescrições, registrar horários e dosagens, e acompanhar o histórico de medicação dos pacientes.
+O MedFlow é um sistema desenvolvido para auxiliar proficionais de saúde no controle e na administração de medicamentos em ambiente hospitalar.
+permite gerenciar prescrições, registrar horarios e dosagens, acompanhar o historicoo de medicação dos pacientes.
+
 ---
 
 FUNCIONALIDADES
