@@ -29,6 +29,7 @@ public class Medico extends Usuario {
     }
 
     public void listarPacientes() {
+        int i = 1;
         if (pacientes.isEmpty()) {
             System.out.println("Nenhum paciente encontrado.");
         } else {
