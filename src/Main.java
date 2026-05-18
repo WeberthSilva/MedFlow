@@ -1,11 +1,35 @@
+import model.Medico;
+import model.Admin;
+import model.Paciente;
+import model.Usuario;
+import service.login.Autenticador;
+
 import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
+        Autenticador autenticador = new Autenticador("admin", "Admin123");
         Admin admin = new Admin("Admin", "Admin@gmail", "Admin123");
         Medico medicoSelecionado = null;
+
+        System.out.println("=== BEM-VINDO AO MEDFLOW ===");
+        System.out.print("Digite o usuário: ");
+        String usuarioDigitado = sc.nextLine();
+
+        System.out.print("Digite a senha: ");
+        String senhaDigitada = sc.nextLine();
+
+
+        if (!autenticador.autenticar(usuarioDigitado, senhaDigitada)) {
+            System.out.println("\nErro: Usuário ou senha incorretos! Acesso negado.");
+            sc.close();
+            return;
+        }
+        System.out.println("\nLogin realizado com sucesso!");
+        System.out.println("teste");
+
 
         while (true) {
             System.out.println("1 - Cadastrar médico");
@@ -50,7 +74,8 @@ public class Main {
                     System.out.println("Escolha um medico:");
                     int escolha = sc.nextInt();
                     sc.nextLine();
-                    Medico medicoEscolhido = admin.getMedico(escolha);
+                    Medico medicoEscolhido;
+                    medicoEscolhido = admin.getMedico(escolha);
                     medicoSelecionado = admin.getMedico(escolha);
                     if (medicoEscolhido == null) {
                         System.out.println("Escolha invalida");
@@ -94,6 +119,7 @@ public class Main {
                     return;
                 default:
                     System.out.println("opçao invalida");
+
             }
         }
     }
