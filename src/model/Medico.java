@@ -31,13 +31,23 @@ public class Medico extends Usuario {
     }
 
     public void listarPacientes() {
-        int i = 1;
         if (pacientes.isEmpty()) {
             System.out.println("Nenhum paciente encontrado.");
         } else {
+            int i = 1;
             for (Paciente p : pacientes) {
-                System.out.println(p);
+                System.out.println(i + " - " + p);
             }
+        }
+    }
+    public Paciente getPaciente(int indice) {
+
+        indice = indice - 1;
+
+        if (indice >= 0 && indice < pacientes.size()) {
+            return pacientes.get(indice);
+        } else {
+            return null;
         }
     }
 
