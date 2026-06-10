@@ -1,5 +1,5 @@
-#<img width="761" height="641" alt="download" src="https://github.com/user-attachments/assets/47a3fddd-2867-4f86-8a19-7ba81eefabc7" />
- MedFlow
+
+# MedFlow
 
 **Autor:** Weberth Silva de Souza
 
@@ -238,7 +238,10 @@ Testes automatizados
 Objetivo Acadêmico
 
 Diagramas:
-<img width="3124" height="2644" alt="image" src="https://github.com/user-attachments/assets/c7b4084a-034a-4cae-88dc-09ab3c0d998b" />
+#<img width="761" height="641" alt="download" src="https://github.com/user-attachments/assets/47a3fddd-2867-4f86-8a19-7ba81eefabc7" />
+
+
+
 
 
 
