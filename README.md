@@ -158,7 +158,9 @@ Permite:
 
 # Estrutura do Projeto
 MedFlow
-
+<img 
+width="400"
+img width="172" height="400" alt="image" src="https://github.com/user-attachments/assets/a767ee0f-1d1d-4638-8335-ed590a4a8a27" />
 
 ---
 
