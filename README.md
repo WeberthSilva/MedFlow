@@ -170,14 +170,10 @@ O projeto utiliza:
 
 ### Herança
 Exemplo:
-Usuario
-|
-+-- Admin
-|
-+-- Medico
+
+<img width="62" height="78" alt="image" src="https://github.com/user-attachments/assets/993a5143-3864-4a94-9304-af8905df60f5" />
 
 
----
 
 ### Encapsulamento
 
