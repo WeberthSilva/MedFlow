@@ -125,11 +125,10 @@ AlarmeService
 
 Exemplo:
 
-==================================
      HORA DO MEDICAMENTO
     Medicamento: Dipirona
         Horário: 08:00
-==================================
+
 ---
 
 # Persistência de Dados
@@ -159,32 +158,7 @@ Permite:
 # Estrutura do Projeto
 MedFlow
 
-src
-
-├── controller
-│ ├── LoginController.java
-│ ├── MenuAdmin.java
-│ └── MenuMedico.java
-│
-├── model
-│ ├── Usuario.java
-│ ├── Admin.java
-│ ├── Medico.java
-│ ├── Paciente.java
-│ ├── Medicamento.java
-│ ├── Prescricao.java
-│ └── Alarme.java
-│
-└── service
-├── ArquivoService.java
-├── AlarmeService.java
-│
-└── login
-├── SistemaLogin.java
-└── Autenticador.java
-│
-│
-└──Main
+<img width="162" height="417" alt="image" src="https://github.com/user-attachments/assets/4446cfa1-740a-4ce9-b1bb-2c753237b862" />
 
 
 
@@ -265,11 +239,11 @@ Testes automatizados
 Objetivo Acadêmico
 
 Diagramas:
-Diagramas de classe
+
 <img width="332" height="187" alt="image" src="https://github.com/user-attachments/assets/6f8fe433-ca20-488f-9ae6-bfdd1fab4d57" />
-Caso de uso
+
 <img width="250" height="181" alt="image" src="https://github.com/user-attachments/assets/37a561c4-c92b-4d18-92e8-5f9aea00d25b" />
-Diagrama de atividade
+
 <img width="307" height="243" alt="image" src="https://github.com/user-attachments/assets/7cd712ba-4b0a-4fed-814d-ba4ecfb3e114" />
 
 
