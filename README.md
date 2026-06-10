@@ -237,12 +237,14 @@ Objetivo Acadêmico
 
 Diagramas:
 
-<img width="2688" height="1868" alt="image" src="https://github.com/user-attachments/assets/6bd2e512-2d6b-47ba-b678-a37ee90ee470" />
+<img 
+width="700"
+src="https://github.com/user-attachments/assets/6bd2e512-2d6b-47ba-b678-a37ee90ee470">
 
 
-#<img width="761" height="641" alt="download" src="https://github.com/user-attachments/assets/47a3fddd-2867-4f86-8a19-7ba81eefabc7" />
-
-
+<img 
+width="700"
+src="https://github.com/user-attachments/assets/47a3fddd-2867-4f86-8a19-7ba81eefabc7">
 
 
 
