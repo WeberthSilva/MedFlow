@@ -238,7 +238,7 @@ Objetivo Acadêmico
 Diagramas:
 
 <img 
-width="600"
+width="700"
 img width="886" height="610" alt="image" src="https://github.com/user-attachments/assets/dad83634-77cf-4ab1-946a-d719ec6a146a" />
 
 <img 
