@@ -158,8 +158,6 @@ Permite:
 
 # Estrutura do Projeto
 MedFlow
-<img width="827" height="1169" alt="DIAGRAMA drawio" src="https://github.com/user-attachments/assets/1742f783-61b2-4c9b-b7e5-24f6dea7403c" />
-
 
 
 ---
@@ -238,7 +236,14 @@ Testes automatizados
 Objetivo Acadêmico
 
 Diagramas:
+
+<img width="2688" height="1868" alt="image" src="https://github.com/user-attachments/assets/6bd2e512-2d6b-47ba-b678-a37ee90ee470" />
+
+
 #<img width="761" height="641" alt="download" src="https://github.com/user-attachments/assets/47a3fddd-2867-4f86-8a19-7ba81eefabc7" />
+
+
+
 
 
 
