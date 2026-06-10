@@ -246,11 +246,9 @@ src="https://github.com/user-attachments/assets/6bd2e512-2d6b-47ba-b678-a37ee90e
 width="700"
 src="https://github.com/user-attachments/assets/47a3fddd-2867-4f86-8a19-7ba81eefabc7">
 
-
-
-
-
-
+<img 
+width="700"
+img width="886" height="610" alt="image" src="https://github.com/user-attachments/assets/dad83634-77cf-4ab1-946a-d719ec6a146a" />
 
 Este projeto tem como objetivo praticar desenvolvimento backend em Java, aplicando conceitos fundamentais de engenharia de software, orientação a objetos, organização de código e criação de sistemas reais.
 
