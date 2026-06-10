@@ -157,8 +157,7 @@ Permite:
 
 # Estrutura do Projeto
 MedFlow
-
-<img width="162" height="417" alt="image" src="https://github.com/user-attachments/assets/4446cfa1-740a-4ce9-b1bb-2c753237b862" />
+<img width="827" height="1169" alt="DIAGRAMA drawio" src="https://github.com/user-attachments/assets/1742f783-61b2-4c9b-b7e5-24f6dea7403c" />
 
 
 
@@ -238,19 +237,8 @@ Testes automatizados
 Objetivo Acadêmico
 
 Diagramas:
-<img 
-width="800"
-src="https://github.com/user-attachments/assets/6f8fe433-ca20-488f-9ae6-bfdd1fab4d57">
+<img width="827" height="1169" alt="DIAGRAMA drawio" src="https://github.com/user-attachments/assets/24d8738f-70e4-4313-9452-98ebc292bda6" />
 
-
-<img 
-width="800"
-src="https://github.com/user-attachments/assets/37a561c4-c92b-4d18-92e8-5f9aea00d25b">
-
-
-<img 
-width="800"
-src="https://github.com/user-attachments/assets/26ef4a8e-627c-4f9a-aebc-ad3268f5b75f">
 
 
 Este projeto tem como objetivo praticar desenvolvimento backend em Java, aplicando conceitos fundamentais de engenharia de software, orientação a objetos, organização de código e criação de sistemas reais.
