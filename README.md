@@ -244,7 +244,7 @@ Melhorias Futuras
 
 -Objetivo Acadêmico
 
-Diagramas:
+DIAGRAMAS
 
 <img 
 width="700"
