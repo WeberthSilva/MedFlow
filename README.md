@@ -224,16 +224,24 @@ Controle de versão:
 Git / GitHub
 Melhorias Futuras
 
-#Possíveis evoluções:
+# Possíveis evoluções:
 
-#-Implementação de banco de dados PostgreSQL/MySQL
-#-Interface gráfica usando JavaFX
+-Implementação de banco de dados PostgreSQL/MySQL
+
+-Interface gráfica usando JavaFX
+
 -Criação de API REST
+
 -Sistema de pacientes com login próprio
+
 -Histórico completo de consultas
+
 -Relatórios médicos
+
 -Criptografia de senhas
+
 -Testes automatizados
+
 -Objetivo Acadêmico
 
 Diagramas:
